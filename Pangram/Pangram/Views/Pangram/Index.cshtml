@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("CheckMissing", "Pangram"))
+{
+
+ <input type="text" name="input" />   
+    
+<input type="submit" value="Check" />
+
+<label>Missing Letters: @ViewBag.Missing</label>
+
+}
