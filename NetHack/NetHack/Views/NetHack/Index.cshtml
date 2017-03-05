@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("CheckHack", "NetHack"))
+{
+
+ <input type="text" name="bomb" placeholder="bomb" />   
+    
+  <input type="text" name="force" placeholder="force" />   
+    
+<input type="submit" value="Check" />
+
+<label>Result: </label>
+    <ul>
+         @foreach (string item in ViewBag.Result) 
+            {
+               <li>@item</li>
+            }
+    </ul>
+   
+
+}
+
+

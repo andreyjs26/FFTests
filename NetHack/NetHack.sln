@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetHack", "NetHack\NetHack.csproj", "{3E5A4690-5676-48B0-A2D0-E822C4631059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetHack.Tests", "NetHack.Tests\NetHack.Tests.csproj", "{83389307-95F3-4F3B-88C9-36204358AC2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E5A4690-5676-48B0-A2D0-E822C4631059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5A4690-5676-48B0-A2D0-E822C4631059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5A4690-5676-48B0-A2D0-E822C4631059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5A4690-5676-48B0-A2D0-E822C4631059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83389307-95F3-4F3B-88C9-36204358AC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83389307-95F3-4F3B-88C9-36204358AC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83389307-95F3-4F3B-88C9-36204358AC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83389307-95F3-4F3B-88C9-36204358AC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
